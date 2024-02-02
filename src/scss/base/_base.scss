@@ -23,14 +23,14 @@ img {
 		position: relative;
 	}
 	&--decor::after {
-		content: "";
+		content: '';
 		position: absolute;
 		left: 0;
 		bottom: 7px;
 		width: 268px;
 		height: 24px;
 		z-index: -1;
-		background-image: url("./../img/discover/underline.svg");
+		background-image: url('./../img/discover/underline.svg');
 		background-repeat: no-repeat;
 	}
 }
