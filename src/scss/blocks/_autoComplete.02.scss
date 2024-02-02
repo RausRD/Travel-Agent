@@ -61,7 +61,7 @@
 
 .autoComplete_wrapper > ul > li mark {
 	background-color: transparent;
-	color: rgba(255, 122, 122, 1);
+	color: var(--accent);
 	font-weight: bold;
 }
 
