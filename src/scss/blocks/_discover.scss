@@ -16,8 +16,9 @@
 .discover__picture {
 	position: relative;
 }
-.disciver__picture-hint {
+.discover__picture-hint {
 	position: absolute;
+	z-index: 1;
 	top: 90px;
 	left: 40px;
 }
