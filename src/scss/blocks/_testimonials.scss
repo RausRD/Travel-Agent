@@ -1,5 +1,6 @@
 .testimonials__grid {
 	display: grid;
+	z-index: 1;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 32px;
 	overflow: hidden;
@@ -10,10 +11,10 @@
 	animation: slideUp 20s linear infinite;
 }
 .testimonials__col:nth-child(2) {
-	padding-top: 60px;
+	margin-top: 60px;
 }
 .testimonials__col:nth-child(3) {
-	padding-top: 30px;
+	margin-top: 30px;
 }
 @keyframes slideUp {
 	0% {
