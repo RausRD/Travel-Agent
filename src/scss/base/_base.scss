@@ -56,6 +56,9 @@ img {
 	font-style: normal;
 	font-weight: 500;
 	line-height: normal;
+	@include mediaMobile {
+		font-size: 28px;
+	}
 }
 .text {
 	color: var(--text-muted);
