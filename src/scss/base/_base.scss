@@ -19,6 +19,16 @@ img {
 	line-height: 91px;
 	letter-spacing: 0%;
 	text-align: left;
+	@include mediaTablet {
+		font-size: 52px;
+	}
+	@include mediaMobile {
+		font-size: 32px;
+		line-height: 50px;
+	}
+	@include mediaTabletXs {
+		font-size: 26px;
+	}
 	&--decor {
 		position: relative;
 	}
@@ -32,6 +42,13 @@ img {
 		z-index: -1;
 		background-image: url('./../img/discover/underline.svg');
 		background-repeat: no-repeat;
+		@include mediaMobile {
+			background-size: contain;
+			width: 134px;
+			height: 12px;
+			left: 67px;
+			bottom: 9px;
+		}
 	}
 }
 .title-3 {
@@ -47,6 +64,9 @@ img {
 	line-height: 150%;
 	letter-spacing: 0%;
 	text-align: left;
+	@include mediaMobile {
+		font-size: 16px;
+	}
 	p + p {
 		margin-top: 1em;
 	}

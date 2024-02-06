@@ -2,4 +2,21 @@
 	@media (max-width: 767px) {
 		@content
 	}
+};
+
+@mixin mediaLaptop() {
+	@media (max-width: 1439px) {
+		@content
+	}
+};
+
+@mixin mediaTablet() {
+	@media (max-width: 1023px) {
+		@content
+	}
+};
+@mixin mediaTabletXs() {
+	@media (max-width: 374px) {
+		@content
+	}
 }
