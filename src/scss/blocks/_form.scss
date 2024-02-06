@@ -27,6 +27,9 @@
 		letter-spacing: 0%;
 		text-align: left;
 	}
+	&--calendar {
+		background-image: url('./../img/icons/calendar.svg')
+	}
 }
 .form__input {
 	font-size: 14px;
@@ -39,4 +42,8 @@
 	}
 }
 .from__btn {
+	transition: opacity 0.2s ease-in;
+	&:hover {
+		opacity: 0.8;
+	}
 }

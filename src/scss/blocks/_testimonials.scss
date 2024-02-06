@@ -2,8 +2,9 @@
 	display: grid;
 	z-index: 1;
 	grid-template-columns: repeat(3, 1fr);
-	gap: 32px;
+	gap: 12px;
 	overflow: hidden;
+	margin: 0 -10px;
 }
 .swiper-testimonials {
 	height: 900px;

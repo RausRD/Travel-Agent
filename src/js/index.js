@@ -1,3 +1,7 @@
+// mobile navigation
+import mobileNav from './modules/mobile-nav'
+mobileNav()
+
 import autoCompleteFunc from './modules/autocomplete'
 
 autoCompleteFunc()
@@ -18,7 +22,7 @@ const picker = new easepick.create({
 })
 
 // Swiper
-import swiper from "./modules/swiper-popular"
+import swiper from './modules/swiper-popular'
 swiper()
 
 // ScrollReveal
