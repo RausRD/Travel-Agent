@@ -18,9 +18,13 @@ const picker = new easepick.create({
 })
 
 // Swiper
-import swiper from "./modules/swiper"
+import swiper from "./modules/swiper-popular"
 swiper()
 
 // ScrollReveal
 import scroll from './modules/scrollReveal'
 scroll()
+
+// testimonials
+import swiperTestimonials from './modules/swiper-testimonials'
+swiperTestimonials()
