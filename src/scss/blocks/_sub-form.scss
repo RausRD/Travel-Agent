@@ -2,6 +2,10 @@
 	display: flex;
 	gap: 12px;
 	align-items: center;
+	@include mediaMobileS {
+		flex-direction: column;
+		align-items: stretch;
+	}
 }
 .subscribe-form__input {
 	border: 1px solid #fff;
@@ -33,6 +37,9 @@
 	line-height: 150%;
 	color: #fff;
 	transition: opacity 0.2s ease-in;
+	@include mediaMobileS {
+		min-width: 100%;
+	}
 	&:hover {
 		opacity: 0.9;
 	}

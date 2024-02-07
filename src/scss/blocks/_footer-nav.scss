@@ -1,6 +1,9 @@
 .footer-nav {
 	display: grid;
 	gap: 24px;
+	@include mediaMobile {
+		gap: 12px;
+	}
 }
 .footer-nav__title {
 	font-weight: 500;

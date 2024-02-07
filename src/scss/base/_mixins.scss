@@ -20,7 +20,7 @@
 		@content
 	}
 };
-@mixin mediaTabletS() {
+@mixin mediaMobileS() {
 	@media (max-width: 475px) {
 		@content
 	}

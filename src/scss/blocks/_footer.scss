@@ -12,6 +12,10 @@
 	grid-template-columns: 1fr 1fr;
 	gap: 128px;
 	align-items: start;
+	@include mediaMobile {
+		grid-template-columns: 1fr;
+		gap: 60px;
+	}
 }
 .footer__copy {
 	display: grid;
@@ -25,4 +29,7 @@
 	grid-template-columns: 1fr 1fr;
 	align-items: start;
 	column-gap: 40px;
+	@include mediaMobile {
+		grid-row: -1 / 1;
+	}
 }
